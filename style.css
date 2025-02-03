@@ -14,7 +14,11 @@ body {
     font-weight: 400;
     font-style: normal;
   }
-  
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
 
 .header {
     display: flex;
@@ -48,6 +52,7 @@ body {
 
 .hero {
     display: flex;
+    width: 100%;
     justify-content: space-between;
     padding: 0;
 }
@@ -74,11 +79,6 @@ body {
     ; /* Adjust transparency if needed */
 }
 
-@media (max-width: 600px) {
-    .overlay-image {
-        width: 50%; /* Make overlay larger on small screens */
-    }
-}
 .btn-action {
     background-color: #2563eb;
     color: white;
