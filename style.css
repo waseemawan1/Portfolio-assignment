@@ -194,6 +194,17 @@ h1 , h3 {
     text-align: center;
   }
 
+    /* .project {
+        display: flex;
+        justify-content: space-between;
+        font-family: sans-serif;
+        color: white;
+        font-weight: bold;
+        line-height: 1.0;
+        padding: 0;
+        margin: 0;
+        margin-top: 150px;
+    } */
   .all-projects a {
     text-decoration: none;
     color: white;
